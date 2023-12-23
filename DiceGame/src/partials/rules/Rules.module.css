@@ -1,0 +1,22 @@
+.container{
+    width:fit-content;
+    margin:10px auto;
+    background-color: rgb(199, 178, 178);
+    color:black;
+    padding:10px;
+}
+
+.container h1{
+    font-size: 30px;
+    font-weight: 900;
+    font-weight: bolder;
+}
+
+.container ul{
+    list-style: none;
+    font-weight: 700;
+    font-size: smaller;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}

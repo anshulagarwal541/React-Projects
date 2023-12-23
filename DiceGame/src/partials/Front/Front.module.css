@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top:100px;
+}
+.playGame {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.playGame h1 {
+    font-size: 76px;
+    white-space: nowrap;
+}
+
+.playGame button{
+    all:unset;
+    background-color: indigo;
+    color:white;
+    font-size: larger;
+    width:fit-content;
+    padding:10px 20px;
+}
